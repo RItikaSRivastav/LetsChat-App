@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B6EAF0"
+    android:gravity="center"
+    android:padding="17dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LetsChat "
+        android:textStyle="bold"
+        android:textSize="38sp"
+        android:fontFamily="monospace"
+        android:textColor="#26A69A"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Secure and Fast Chat App"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="80dp"
+        android:textSize="18sp"
+        android:fontFamily="monospace"
+        android:textColor="#2784CF"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="user id"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/userid_input"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_btn"
+        android:text="Login"/>
+
+
+</LinearLayout>
